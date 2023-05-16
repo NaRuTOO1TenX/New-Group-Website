@@ -8,8 +8,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter";
-  text-decoration: none;
 }
 
 .container {
@@ -88,11 +86,11 @@
   border-radius: 4px;
   padding: 8px 10px;
   text-decoration: none;
+  transition: 0.3s ease;
 }
 
 .header-section .navbar .navbar-right-content a:hover {
   background: #4873c4;
-  transition: 0.3s ease;
 }
 
 /* Navbar end */
@@ -312,9 +310,19 @@
   font-weight: 700;
   font-size: 11px;
   line-height: 18px;
-  color: #2254B4;
+  color: #2254B4; 
   padding: 10px 15px;
   border: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.futureMiddle .futureMiddleContent .btn:active {
+  transform: scale(0.9);
+}
+
+.futureMiddle .futureMiddleContent .btn:hover {
+  box-shadow: 7px 7px 10px #202020;
 }
 
 .futureMiddle .futureMiddleContent .btn img {
@@ -385,7 +393,7 @@
   margin-bottom: 20px;
 }
 
-.futureBottomLeftContent .btn {
+.futureBottomLeft .futureBottomLeftContent .btn {
   height: 38px;
   background: #2254B4;
   border-radius: 4px;
@@ -401,9 +409,19 @@
   padding: 10px 15px;
   border: none;
   margin-bottom: 0;
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
 
-.futureBottomLeftContent .btn img {
+.futureBottomLeft .futureBottomLeftContent .btn:active {
+  transform: scale(0.9);
+}
+
+.futureBottomLeft .futureBottomLeftContent .btn:hover {
+  box-shadow: 7px 7px 10px #2960CA;
+}
+
+.futureBottomLeft .futureBottomLeftContent .btn img {
   margin-top: 25px;
 }
 
@@ -706,12 +724,94 @@
 
 
 /* Started section */
+/* Started section start */
+.started-section{
+    padding: 100px 0 46px 0;
+    background:url(../images/Group\ 10.png)#0055C0 ;
+}
+.started-section-name{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 133.02%;
+    color: #FFFFFF;
+}
+.started-section-box1{
+   background: #FFFFFF;
+   border-radius: 8px;
+
+}
+.start-section-box1-emg img{
+    width: 46.92px;
+    height: 47.62px;
+    margin-left: 45px;
+    margin-top: 57px;
+}
+.start-section-box1-about-text-name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 133.02%;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;  
+    margin-left: 45px;
+    margin-top: 8px;
+}
+.start-section-box1-about-text-link a{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 21px;
+color: #2254B4;
+flex: none;
+margin-right: 12px;
+}
+.start-section-box1-about-text-link img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    
+}
+.start-section-box1-about-text-link{
+    display: flex;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 8px;
+    margin-bottom: 58px;
+  
+} 
+.start-section-box1-about{
+    display: flex;
+    position: relative;
+}
+.start-section-box1-img{
+    margin-left: 203px;
+    width: 332px;
+    height: 234px;
+    position: absolute;
+    right: 48px;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
 
 /* Started section */
 
 
 /* Footer section */
 
+/* Footer section */
 /* Footer qismi boshlandi */
 
 .footer-section .container {
@@ -832,11 +932,11 @@
 }
 
 .footer-section .container .footer_end .footer_end_right .footer_point {
-  margin-top: -4px;
+  margin-top: -2px;
 }
 
 .footer-section .container .footer_end .footer_end_right .footer_in {
-  margin-top: 2px;
+  margin-top: -1px;
 }
 
 /* Footer section */
