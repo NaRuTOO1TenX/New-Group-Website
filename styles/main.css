@@ -8,3 +8,60 @@
   max-width: 920px;
   margin: 0 auto;
 }
+
+.textContainer {
+  max-width: 446px;
+}
+
+.textContainer h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 133.02%;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.textContainer p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+/* Future section */
+
+/* Future section */
+
+
+
+/* Business section*/
+
+/* Business section*/
+
+
+/* Market section */
+
+/* Market section */
+
+
+/* Started section */
+
+/* Started section */
+
+
+/* Footer section */
+
+/* Footer section */
