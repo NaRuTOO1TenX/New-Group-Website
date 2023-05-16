@@ -122,6 +122,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .futureBottom .futureBottomLeft {
@@ -130,21 +131,130 @@
   height: 537px;
 }
 
-.futureBottom .futureBottomLeft:first-child {
+.futureBottom .futureBottomLeft {
   background: #EDF5FE;
 }
 
-.futureBottom .futureBottomLeft:last-child {
+.futureBottom .futureBottomRight {
   background: #000;
   color: #fff;
 } 
 
 .futureBottom .futureBottomLeft .futureBottomLeftContent {
   margin: 46px 0 0 45px;
+  max-width: 295px;
 }
   
+.futureBottomLeftContent img {
+  width: 30px;
+  height: 21.5px;
+  margin-bottom: 28px;
+}
 
+.futureBottomLeftContent h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 133.02%;
+  color: #000000;
+  margin-bottom: 8px;
+}
 
+.futureBottomLeftContent h5 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  margin-bottom: 28px;
+}
+
+.futureBottomLeftContent .btn {
+  height: 38px;
+  background: #2254B4;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 18px;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+
+.futureBottomLeftContent .btn img {
+  margin-top: 25px;
+}
+
+.futureBottomLeftContent p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  z-index: 10000;
+}
+
+.futureBottomLeftContent p img {
+  display: block;
+  width: 93px;
+  height: 17px;
+  margin-top: 30px;
+}
+
+.futureBottomLeftImg {
+  position: absolute;
+  content: '';
+  bottom: 0;
+}
+
+/*  */
+
+.futureBottom .futureBottomRight {
+  background: #000;
+  color: #fff;
+} 
+
+.futureBottomRight .futureBottomLeftContent h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 133.02%;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.futureBottomRight .futureBottomLeftContent h5 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #fff;
+  margin-bottom: 28px;
+}
+
+.futureBottomRight .futureBottomLeftContent .btn {
+  height: 38px;
+  background: #202020;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 18px;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
 
 /* Future section */
 
