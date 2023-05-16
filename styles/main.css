@@ -1,10 +1,7 @@
-/* font  */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 /* Universal codes */
 @font-face {
-  font-family: Inter;
-  src: url(../fonts/);
+  font-family: 'Inter';
+  src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
 }
 
 * {
@@ -351,12 +348,12 @@
 .futureBottom .futureBottomLeft:last-child {
   background: #000;
   color: #fff;
-} 
+}
 
 .futureBottom .futureBottomLeft .futureBottomLeftContent {
   margin: 46px 0 0 45px;
 }
-  
+
 
 
 
