@@ -316,6 +316,12 @@
   color: #2254B4;
   padding: 10px 15px;
   border: none;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.futureMiddle .futureMiddleContent .btn:hover {
+  opacity: 0.9;
 }
 
 .futureMiddle .futureMiddleContent .btn img {
@@ -402,6 +408,12 @@
   padding: 10px 15px;
   border: none;
   margin-bottom: 0;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.futureBottomLeftContent .btn:hover {
+  opacity: 0.9;
 }
 
 .futureBottomLeftContent .btn img {
@@ -412,7 +424,6 @@
   display: flex;
   align-items: center;
   gap: 5px;
-  z-index: 10000;
 }
 
 .futureBottomLeftContent p img {
@@ -472,8 +483,13 @@
   color: #fff;
   padding: 10px 15px;
   border: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
 
+.futureBottomRight .futureBottomLeftContent .btn:hover {
+  opacity: 0.9;
+}
 
 .futureBottomRight .futureBottomLeftImg {
   position: absolute;
