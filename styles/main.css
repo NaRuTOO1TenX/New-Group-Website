@@ -16,13 +16,14 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 29px;
+  padding-bottom: 113px;
 }
 
-.header-section .navbar ul {
+.header-section .navbar .navbar-middle-content ul {
   display: flex;
 }
 
-.header-section .navbar ul a {
+.header-section .navbar .navbar-middle-content ul a {
   list-style: none;
   text-decoration: none;
   display: flex;
@@ -32,6 +33,89 @@
   font-size: 11px;
   line-height: 18px;
   color: #000000;
+  margin-right: 31px;
+  /* align-items: center; */
+}
+
+.header-section .navbar .navbar-middle-content ul a i {
+  margin-left: 9px;
+  margin-top: 5px;
+}
+
+.header-section .navbar .navbar-right-content a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 18px;
+  color: #FFFFFF;
+  background: #2254B4;
+  border-radius: 4px;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+.header-section .navbar .navbar-right-content a:hover {
+  background: #4873c4;
+  transition: 0.3s ease;
 }
 
 /* Header section end */
+
+
+.textContainer {
+  max-width: 446px;
+}
+
+.textContainer h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 133.02%;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.textContainer p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+/* Future section */
+
+/* Future section */
+
+
+
+/* Business section*/
+
+/* Business section*/
+
+
+/* Market section */
+
+/* Market section */
+
+
+/* Started section */
+
+/* Started section */
+
+
+/* Footer section */
+
+/* Footer section */
