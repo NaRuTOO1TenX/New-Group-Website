@@ -64,4 +64,62 @@
 
 /* Footer section */
 
+/* Footer qismi boshlandi */
+
+.container{
+  width: 1280px;
+  /* height: 855px; */
+  background-color: #474444;
+}
+
+.footer_top{
+text-align: center; 
+padding-top: 135px;
+}
+
+
+.footer_main{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_top h1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 133.02%;
+  color: #FFFFFF;
+}
+
+.footer_top .footer_Access_tex{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25px;
+  color: #FFFFFF;
+  
+ 
+}
+
+.footer_top .footer_btn{
+  /* display: flex;
+  align-items: center;
+  text-align: center; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footer section */
