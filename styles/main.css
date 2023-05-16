@@ -8,3 +8,30 @@
   max-width: 920px;
   margin: 0 auto;
 }
+
+/* Header section start */
+
+.header-section .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 29px;
+}
+
+.header-section .navbar ul {
+  display: flex;
+}
+
+.header-section .navbar ul a {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 18px;
+  color: #000000;
+}
+
+/* Header section end */
