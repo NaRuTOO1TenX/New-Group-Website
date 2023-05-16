@@ -380,31 +380,32 @@
 
 /* Footer qismi boshlandi */
 
-.footer-section .container{
+.footer-section .container {
   width: 1280px;
   height: 855px;
-  background-color: 
-  #000000;
+  background-color:
+    #000000;
 }
 
-.footer_top{
-text-align: center; 
-padding-top: 135px;
-max-width: 504px;
-margin: 0 auto;
+.footer_top {
+  text-align: center;
+  padding-top: 135px;
+  max-width: 504px;
+  margin: 0 auto;
 }
 
 
-.footer_main{
+.footer_main {
   display: flex;
   justify-content: space-around;
   padding-top: 132px;
 }
 
-.footer-section .container .footer_main p{
+.footer-section .container .footer_main p {
   margin-bottom: 7px;
 }
-.footer_top h1{
+
+.footer_top h1 {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
@@ -414,64 +415,91 @@ margin: 0 auto;
   margin-bottom: 15px;
 }
 
-.footer_top .footer_Access_tex{
+.footer_top .footer_Access_tex {
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
   line-height: 25px;
   color: #FFFFFF;
   margin-bottom: 24px;
-  text-align:center;
- 
+  text-align: center;
+
 }
 
-.footer_top .footer_btn .btn_1{
-  width: 150px;
-  height: 38px;
+.footer-buttons a:nth-child(1) {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 18px;
+  color: #FFFFFF;
   background: #2254B4;
   border-radius: 4px;
-  color: #FFFFFF;
+  padding: 10px 14px;
+  text-decoration: none;
+  margin-right: 14px;
+  margin-bottom: 109px;
 }
 
-.footer_top .footer_btn .btn_2{
+.footer-buttons i {
+  margin-left: 7px;
+}
+
+.footer-buttons a:nth-child(1):hover {
+  background: #4873c4;
+  transition: 0.3s ease;
+}
+
+.footer-buttons a:nth-child(2) {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 18px;
+  color: #fff;
   background: #202020;
   border-radius: 4px;
-  color: #FFFFFF;
-  width: 119px;
-  height: 38px;
+  padding: 10px 14px;
+  text-decoration: none;
+  margin-right: 14px;
 }
 
-.footer-section .container .footer_main h4{
+.footer-buttons a:nth-child(2):hover {
+  background: rgb(49, 49, 49);
+  transition: 0.3s ease;
+}
+
+.footer-section .container .footer_main h4 {
   color: #B5B5B5;
   margin-bottom: 5px;
 }
 
-.footer-section .container .footer_main p{
-  color:#FFFFFF;
+.footer-section .container .footer_main p {
+  color: #FFFFFF;
   ;
 }
 
-.footer-section .container .footer_end{
+.footer-section .container .footer_end {
   display: flex;
   justify-content: space-around;
   padding-top: 86px;
 }
 
-.footer-section .container .footer_end .footer_end_left{
+.footer-section .container .footer_end .footer_end_left {
   display: flex;
   gap: 27px;
 }
 
-.footer-section .container .footer_end .footer_end_right{
+.footer-section .container .footer_end .footer_end_right {
   display: flex;
   gap: 10px;
 }
 
-.footer-section .container .footer_end .footer_end_right .footer_point{
+.footer-section .container .footer_end .footer_end_right .footer_point {
   margin-top: -4px;
 }
 
-.footer-section .container .footer_end .footer_end_right .footer_in{
+.footer-section .container .footer_end .footer_end_right .footer_in {
   margin-top: 2px;
 }
 
