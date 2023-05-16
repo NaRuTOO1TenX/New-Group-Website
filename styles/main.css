@@ -358,7 +358,7 @@
   margin: 46px 0 0 45px;
   max-width: 295px;
 }
-  
+
 .futureBottomLeftContent img {
   width: 30px;
   height: 21.5px;
@@ -433,7 +433,7 @@
   background: #000;
   color: #fff;
   position: relative;
-} 
+}
 
 .futureBottomRight .futureBottomLeftContent h1 {
   font-family: 'Inter';
@@ -550,15 +550,13 @@
   padding-top: 80px;
 }
 
-.business-section-child .busines-middle .busines-middle-left {
-  
-}
+.business-section-child .busines-middle .busines-middle-left {}
 
 .business-section-child .busines-middle .busines-middle-right .diamond {
   position: absolute;
   top: -40px;
   left: 260px;
-} 
+}
 
 .business-section-child .busines-middle .busines-middle-left p {
   padding-top: 24px;
@@ -568,12 +566,13 @@
   margin-top: 26px;
 }
 
-.business-section-child .busines-middle .busines-middle-right  {
+.business-section-child .busines-middle .busines-middle-right {
   margin-top: 63px;
   padding-bottom: 0;
   margin-left: 100px;
   position: relative;
 }
+
 .business-section-child .busines-middle .busines-middle-right img {
   margin-bottom: 0;
   padding-bottom: 0;
@@ -585,113 +584,113 @@
 
 /* Market section */
 .market-section {
-    margin: 80px 0;
+  margin: 80px 0;
 }
 
 .market-section .container h1 {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 133.02%;
-    color: #000000;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 133.02%;
+  color: #000000;
 }
 
 .market-section .container p {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 25px;
-    color: #000000;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25px;
+  color: #000000;
 }
 
 .market-section .container .market-cards {
-    width: 100%;
-    scroll-behavior: smooth;
-    display: inline-block;
-    position: relative;
-    vertical-align: middle;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-    margin: 50px 0;
+  width: 100%;
+  scroll-behavior: smooth;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  margin: 50px 0;
 }
 
 .market-section .container .market-cards::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .market-section .container .market-cards .market-card {
-    list-style: none;
-    display: inline-block;
-    position: relative;
-    vertical-align: middle;
-    width: 440px;
-    background: #F5F5F5;
-    border-radius: 8px;
-    margin: 20px 20px 20px 0;
-    padding: 39px 48px;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: 440px;
+  background: #F5F5F5;
+  border-radius: 8px;
+  margin: 20px 20px 20px 0;
+  padding: 39px 48px;
 }
 
 .market-section .market-card h2 {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 138%;
-    color: #000000;
-    margin-bottom: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 138%;
+  color: #000000;
+  margin-bottom: 20px;
 }
 
 .market-section .market-card .market-client {
-    display: flex;
-    gap: 14px;
-    margin-top: 80px;
+  display: flex;
+  gap: 14px;
+  margin-top: 80px;
 }
 
 .market-section .market-card h3 {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 18px;
-    color: #000000;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
 }
 
 .market-section .market-card h4 {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 11px;
-    line-height: 18px;
-    color: #606060;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 18px;
+  color: #606060;
 }
 
 .market-section .market-scroll {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    gap: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 11px;
 }
 
 .market-section .scroll-arrow {
-    width: 37px;
-    height: 37px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #F5F5F5;
-    border-radius: 33px;
-    color: #606060;
-    cursor: pointer;
-    transition: all .7s ease;
+  width: 37px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F5F5F5;
+  border-radius: 33px;
+  color: #606060;
+  cursor: pointer;
+  transition: all .7s ease;
 }
 
 .market-section .scroll-arrow:hover {
-    background: #2254B4;
-    color: #fff;
+  background: #2254B4;
+  color: #fff;
 }
 
 /* Market section */
@@ -724,7 +723,7 @@
 .footer_main {
   display: flex;
   justify-content: space-around;
-  padding-top: 132px;
+  padding-top: 200px;
 }
 
 .footer-section .container .footer_main p {
@@ -798,17 +797,19 @@
 .footer-section .container .footer_main h4 {
   color: #B5B5B5;
   margin-bottom: 5px;
+  font-size: 11px;
 }
 
 .footer-section .container .footer_main p {
   color: #FFFFFF;
-  ;
+  font-size: 11px;
 }
 
 .footer-section .container .footer_end {
   display: flex;
   justify-content: space-around;
   padding-top: 86px;
+  font-size: 11px;
 }
 
 .footer-section .container .footer_end .footer_end_left {
@@ -830,6 +831,3 @@
 }
 
 /* Footer section */
-
-
-
