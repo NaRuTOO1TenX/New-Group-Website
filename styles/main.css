@@ -259,12 +259,15 @@
 /* Future section */
 
 .futureMiddle {
+  overflow: hidden;
   max-width: 916px;
+  height: 354px;
   background: #2960CA;
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .futureMiddle .futureMiddleContent {
@@ -313,11 +316,49 @@
   line-height: 18px;
   color: #2254B4;
   padding: 10px 15px;
+  border: none;
 }
 
 .futureMiddle .futureMiddleContent .btn img {
-  margin-top: 0px;
+  margin-top: 25px;
 }
+
+.futureMiddle .futureMiddleImg {
+  display: block;
+  width: 661.5px;
+  height: 412.5px;
+  margin-top: 60px;
+}
+
+.futureBottom {
+  margin-top: 20px;
+  max-width: 916px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.futureBottom .futureBottomLeft {
+  border-radius: 8px;
+  width: 448px;
+  height: 537px;
+}
+
+.futureBottom .futureBottomLeft:first-child {
+  background: #EDF5FE;
+}
+
+.futureBottom .futureBottomLeft:last-child {
+  background: #000;
+  color: #fff;
+} 
+
+.futureBottom .futureBottomLeft .futureBottomLeftContent {
+  margin: 46px 0 0 45px;
+}
+  
+
+
 
 /* Future section */
 
