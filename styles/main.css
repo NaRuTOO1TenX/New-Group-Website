@@ -1,22 +1,150 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Universal codes */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
 .container {
   max-width: 920px;
   margin: 0 auto;
 }
+.textContainer {
+  max-width: 446px;
+}
 
+.textContainer h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 133.02%;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.textContainer p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+
+/* Univesal codes */
+
+
+
+/* Future section */
+
+/* Future section */
+
+
+
+/* Business section*/
+
+/* Business section*/
+
+
+/* Market section */
+
+/* Market section */
+
+
+/* Started section */
 /* Started section start */
+.started-section{
+    padding: 100px 0 46px 0;
+    background:url(../images/Group\ 10.png)#0055C0 ;
+}
 .started-section-name{
-    position: absolute;
-    width: 446px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 42px;
     line-height: 133.02%;
     color: #FFFFFF;
 }
+.started-section-box1{
+   background: #FFFFFF;
+   border-radius: 8px;
+
+}
+.start-section-box1-emg img{
+    width: 46.92px;
+    height: 47.62px;
+    margin-left: 45px;
+    margin-top: 57px;
+}
+.start-section-box1-about-text-name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 133.02%;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;  
+    margin-left: 45px;
+    margin-top: 8px;
+}
+.start-section-box1-about-text-link a{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 21px;
+color: #2254B4;
+flex: none;
+margin-right: 12px;
+}
+.start-section-box1-about-text-link img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    
+}
+.start-section-box1-about-text-link{
+    display: flex;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 8px;
+    margin-bottom: 58px;
+  
+} 
+.start-section-box1-about{
+    display: flex;
+    position: relative;
+}
+.start-section-box1-img{
+    margin-left: 203px;
+    width: 332px;
+    height: 234px;
+    position: absolute;
+    right: 48px;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+/* Started section */
+
+
+/* Footer section */
+
+/* Footer section */
