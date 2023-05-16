@@ -8,3 +8,15 @@
   max-width: 920px;
   margin: 0 auto;
 }
+
+/* Started section start */
+.started-section-name{
+    position: absolute;
+    width: 446px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 133.02%;
+    color: #FFFFFF;
+}
