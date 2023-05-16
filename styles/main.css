@@ -532,6 +532,12 @@
   border-radius: 26px;
   color: #fff;
   border: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.business-section-child .navbar-business ul li button:active {
+     scale: 0.92;
 }
 
 .business-section-child .busines-middle {
