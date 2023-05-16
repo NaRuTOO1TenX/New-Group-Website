@@ -6,66 +6,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter";
 }
 
 .container {
   max-width: 920px;
   margin: 0 auto;
 }
-
-/* Header section start */
-
-.header-section .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 29px;
-  padding-bottom: 113px;
-}
-
-.header-section .navbar .navbar-middle-content ul {
-  display: flex;
-}
-
-.header-section .navbar .navbar-middle-content ul a {
-  list-style: none;
-  text-decoration: none;
-  display: flex;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 11px;
-  line-height: 18px;
-  color: #000000;
-  margin-right: 31px;
-  /* align-items: center; */
-}
-
-.header-section .navbar .navbar-middle-content ul a i {
-  margin-left: 9px;
-  margin-top: 5px;
-}
-
-.header-section .navbar .navbar-right-content a {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 11px;
-  line-height: 18px;
-  color: #FFFFFF;
-  background: #2254B4;
-  border-radius: 4px;
-  padding: 8px 10px;
-  text-decoration: none;
-}
-
-.header-section .navbar .navbar-right-content a:hover {
-  background: #4873c4;
-  transition: 0.3s ease;
-}
-
-/* Header section end */
-
 
 .textContainer {
   max-width: 446px;
@@ -93,6 +40,161 @@
 
 
 /* Univesal codes */
+
+/* Header section start ******************************************/
+
+/* Navbar start */
+.header-section .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 29px;
+  padding-bottom: 113px;
+}
+
+.header-section .navbar .navbar-middle-content ul {
+  display: flex;
+}
+
+.header-section .navbar .navbar-middle-content ul a {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 18px;
+  color: #000000;
+  margin-right: 31px;
+}
+
+.header-section .navbar .navbar-middle-content ul a i {
+  margin-left: 9px;
+  margin-top: 5px;
+}
+
+.header-section .navbar .navbar-right-content a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 18px;
+  color: #FFFFFF;
+  background: #2254B4;
+  border-radius: 4px;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+.header-section .navbar .navbar-right-content a:hover {
+  background: #4873c4;
+  transition: 0.3s ease;
+}
+
+/* Navbar end */
+
+
+
+/* Reliably start */
+
+.reliably-section .reliably-left-content .reliably-dashboard-link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 18px;
+  color: #000000;
+  text-decoration: none;
+  background: #F5F5F5;
+  border-radius: 35px;
+  padding: 7px 10px;
+}
+
+.reliably-section .reliably-left-content .reliably-dashboard-link:hover {
+  background: #e7e6e6;
+  transition: 0.3s ease;
+}
+
+.reliably-section .reliably-left-content .reliably-dashboard-link span {
+  background: #2254B4;
+  border-radius: 31px;
+  color: #fff;
+  padding: 4px 7px;
+  margin-right: 5px;
+}
+
+.reliably-section .reliably-left-content .reliably-dashboard-link i {
+  margin-left: 7px;
+}
+
+.reliably-section .reliably-left-content h1 {
+  margin-top: 44px;
+  margin-bottom: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 78px;
+  color: #000000;
+}
+
+.reliably-section .reliably-left-content p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 31px;
+}
+
+.reliably-section .reliably-left-content .reliably-buttons a:nth-child(1) {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 18px;
+  color: #FFFFFF;
+  background: #2254B4;
+  border-radius: 4px;
+  padding: 10px 14px;
+  text-decoration: none;
+  margin-right: 14px;
+  margin-bottom: 109px;
+  /* display: inline-block; */
+}
+
+.reliably-section .reliably-left-content .reliably-buttons i {
+  margin-left: 7px;
+}
+
+.reliably-section .reliably-left-content .reliably-buttons a:nth-child(1):hover {
+  background: #4873c4;
+  transition: 0.3s ease;
+}
+
+.reliably-section .reliably-left-content .reliably-buttons a:nth-child(2) {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 18px;
+  color: #000000;
+  background: #F5F5F5;
+  border-radius: 4px;
+  padding: 10px 14px;
+  text-decoration: none;
+  margin-right: 14px;
+}
+
+.reliably-section .reliably-left-content .reliably-buttons a:nth-child(2):hover {
+  background: #e7e6e6;
+  transition: 0.3s ease;
+}
+
+/* Header section end ******************************************/
+
 
 
 
