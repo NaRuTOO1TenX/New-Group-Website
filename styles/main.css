@@ -86,11 +86,11 @@
   border-radius: 4px;
   padding: 8px 10px;
   text-decoration: none;
+  transition: 0.3s ease;
 }
 
 .header-section .navbar .navbar-right-content a:hover {
   background: #4873c4;
-  transition: 0.3s ease;
 }
 
 /* Navbar end */
