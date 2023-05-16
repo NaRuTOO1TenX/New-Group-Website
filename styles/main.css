@@ -525,7 +525,7 @@
 .business-section-child .navbar-business ul li a {
   margin-top: 10px;
   color: #000;
-
+  text-decoration: none;
 }
 
 .business-section-child .navbar-business ul li button {
@@ -555,6 +555,10 @@
 
 .business-section-child .busines-middle .busines-middle-left h1 {
   padding-top: 80px;
+}
+
+.business-section-child .busines-middle .busines-middle-left a {
+  text-decoration: none;
 }
 
 /* .business-section-child .busines-middle .busines-middle-left {} */
